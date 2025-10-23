@@ -1,0 +1,23 @@
+name: agri_scan
+description: A mobile app for detecting plant diseases using image scanning
+publish_to: 'none'
+version: 0.1.0+1
+environment:
+  sdk: '>=2.18.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  camera: ^0.10.5+9
+  image_picker: ^1.0.7
+  tflite_flutter: ^0.10.4
+  http: ^1.2.0
+  path_provider: ^2.1.2
+  path: ^1.8.3
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets: []
