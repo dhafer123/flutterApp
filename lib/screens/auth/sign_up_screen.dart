@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../utils/app_colors.dart';
+import 'package:agriscan/main.dart';
 
 class SignUpScreen extends StatefulWidget {
   const SignUpScreen({super.key});
@@ -143,7 +143,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 ElevatedButton(
                   onPressed: () {
                     if (_formKey.currentState!.validate()) {
-                      // TODO: Implement sign up logic
+                      
                       print('Sign up validated');
                     }
                   },
